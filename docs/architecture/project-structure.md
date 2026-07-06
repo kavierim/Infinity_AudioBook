@@ -45,8 +45,8 @@ story.md                  # living story state
 settings.ini              # Gemini LLM and playback settings
 settings.example.ini      # configuration examples
 sources/                  # optional; referenced from story.md (non-fiction)
-knowledge/                # OKF documentation bundle
-  features/               # implementation specs (type: Feature)
+docs/                     # OKF documentation bundle
+  features/               # implementation specs (type: Feature; gitignored)
 LICENSE                   # MIT
 ```
 

@@ -25,7 +25,7 @@ An infinite audiobook player that generates story segments on the fly while audi
 | Python 3.10+ | |
 | [uv](https://docs.astral.sh/uv/) | Required package manager |
 | NVIDIA GPU | Practical TTS; CUDA 12.8 on Windows |
-| LLM auth | `GEMINI_API_KEY` or `GOOGLE_API_KEY` — see [authentication](knowledge/playbooks/authentication.md) |
+| LLM auth | `GEMINI_API_KEY` or `GOOGLE_API_KEY` — see [authentication](docs/playbooks/authentication.md) |
 
 ## Quick start
 
@@ -69,13 +69,13 @@ At startup, the TTS model loads, then the full-screen TUI opens.
 | [.env.example](.env.example) | API keys — copy to `.env` (do not commit) |
 | [story.md](story.md) | Living narrative state (title, beats, arc) |
 
-See [settings documentation](knowledge/configuration/settings.md) and [story state](knowledge/configuration/story-state.md) for details.
+See [settings documentation](docs/configuration/settings.md) and [story state](docs/configuration/story-state.md) for details.
 
 ## Documentation
 
 | Document | Purpose |
 |---|---|
-| [knowledge/](knowledge/index.md) | **OKF knowledge bundle** — architecture, config, modules, [features](knowledge/features/index.md), playbooks |
+| [docs/](docs/index.md) | **OKF documentation bundle** — architecture, config, modules, [features](docs/features/index.md), playbooks |
 | [TODO.md](TODO.md) | Backlog index (links to feature specs) |
 | [AGENTS.md](AGENTS.md) | Agent coding instructions |
 

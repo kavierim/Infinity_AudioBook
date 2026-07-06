@@ -17,6 +17,9 @@ settings.ini
 debug/
 *.md.tmp
 
+# Feature specs (local / working copies)
+docs/features/
+
 # Cursor IDE & agent instructions (local / machine-specific)
 .cursor/
 AGENTS.md

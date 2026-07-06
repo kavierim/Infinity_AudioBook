@@ -2,7 +2,7 @@
 okf_version: "0.1"
 ---
 
-# InfinityAudioBook Knowledge Bundle
+# InfinityAudioBook Documentation Bundle
 
 Agent- and human-readable documentation for the infinite audiobook player. This bundle is the **single source of truth** for architecture, configuration, module design, and [feature specs](features/index.md).
 
