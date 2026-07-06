@@ -1,0 +1,156 @@
+/* InfinityAudioBook — agent-style dashboard theme */
+
+Screen {
+    layout: vertical;
+    background: $background;
+}
+
+Header {
+    background: $surface;
+    color: $foreground;
+    border-bottom: heavy $primary-darken-1;
+    dock: top;
+    height: 1;
+}
+
+Header.-dark-mode {
+    background: $surface;
+}
+
+Footer {
+    background: $surface;
+    border-top: solid $primary-darken-2;
+}
+
+Footer > FooterBar {
+    background: transparent;
+}
+
+#main-row {
+    height: 1fr;
+    margin: 0 1;
+}
+
+#bottom-row {
+    height: 1fr;
+    margin: 0 1;
+}
+
+#left-col, #right-col, #past-col, #transcript-col {
+    width: 1fr;
+    height: 100%;
+    margin: 0 1;
+}
+
+.story-panel {
+    height: 100%;
+    border: round $primary-darken-2;
+    background: $panel;
+    layout: vertical;
+    overflow: hidden;
+}
+
+.panel-title {
+    height: 1;
+    background: $primary-darken-3;
+    color: $accent;
+    padding: 0 1;
+    text-style: bold;
+    border-bottom: solid $primary-darken-2;
+}
+
+.panel-scroll {
+    height: 1fr;
+    scrollbar-gutter: stable;
+    padding: 0 1 1 1;
+}
+
+.panel-body {
+    width: 100%;
+    padding: 1 0;
+}
+
+#status-bar {
+    height: 1;
+    background: $boost;
+    color: $foreground;
+    padding: 0 2;
+    border-bottom: solid $primary-darken-3;
+}
+
+#activity-section {
+    height: auto;
+    margin: 0 1;
+    layout: vertical;
+}
+
+#activity-header {
+    height: 1;
+    color: $accent;
+    text-style: bold;
+    padding: 0 1;
+}
+
+#activity-log {
+    height: 7;
+    border: round $secondary-darken-1;
+    background: $surface-darken-1;
+    padding: 0 1;
+    scrollbar-gutter: stable;
+}
+
+#prompt-row {
+    height: 3;
+    margin: 0 1 1 1;
+    border: round $accent-darken-2;
+    background: $surface;
+    padding: 0 1;
+}
+
+#prompt-glyph {
+    width: 2;
+    height: 100%;
+    content-align: center middle;
+    color: $accent;
+    text-style: bold;
+}
+
+#direction-input {
+    width: 1fr;
+    height: 100%;
+    border: none;
+    background: transparent;
+    padding: 0 1;
+}
+
+#direction-input:focus {
+    border: none;
+}
+
+TabbedContent {
+    height: 100%;
+    border: none;
+    padding: 0;
+}
+
+TabbedContent > ContentTabs {
+    background: $primary-darken-3;
+    color: $text-muted;
+    height: 1;
+    dock: top;
+}
+
+TabbedContent ContentTab.-active {
+    background: $panel;
+    color: $accent;
+    text-style: bold;
+}
+
+TabbedContent ContentTab:hover {
+    background: $primary-darken-2;
+}
+
+TabPane {
+    padding: 0;
+    height: 1fr;
+}

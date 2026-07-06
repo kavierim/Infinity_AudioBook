@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Tests
+.pytest_cache/
+
+# Local config & secrets
+settings.ini
+.env
+
+# Runtime / debug output
+debug/
+*.md.tmp
+
+# Cursor IDE & agent instructions (local / machine-specific)
+.cursor/
+AGENTS.md
+
+# OS
+.DS_Store
+Thumbs.db
